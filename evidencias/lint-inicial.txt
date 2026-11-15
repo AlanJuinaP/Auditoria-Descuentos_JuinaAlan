@@ -1,0 +1,37 @@
+EVIDENCIA DEL ANÁLISIS ESTÁTICO INICIAL
+
+Proyecto: Auditoría de módulo de descuentos
+Archivo analizado: src/descuentos.js
+Herramienta: ESLint 10.15.0
+Fecha: 15 de noviembre de 2026
+Comando ejecutado: npm.cmd run lint
+
+RESULTADO OBTENIDO
+
+ESLint identificó 5 errores y 0 advertencias durante el análisis estático inicial.
+
+DETALLE DE LOS ERRORES
+
+1. Línea 2 - no-var:
+   Uso de var en la declaración de la variable descuento.
+
+2. Línea 3 - eqeqeq:
+   Uso de comparación no estricta (==) en lugar de ===.
+
+3. Línea 3 - curly:
+   Condicional if sin llaves.
+
+4. Línea 4 - curly:
+   Condicional if sin llaves.
+
+5. Línea 5 - no-var:
+   Uso de var en la declaración de la variable total.
+
+INTERPRETACIÓN
+
+Los resultados muestran incumplimientos relacionados con las convenciones de codificación y la claridad de las estructuras de control. Se identificó el uso de declaraciones var, una comparación no estricta y estructuras condicionales sin llaves.
+
+Estos resultados corresponden al estado original del código, antes de aplicar cualquier corrección. Se conservarán para compararlos con el análisis estático final.
+
+RESULTADO FINAL:
+5 errores y 0 advertencias.
